@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
+echo "Compiling Liblightnvm..."
 cd liblightnvm || exit
-
 make -j16
 make install
 
